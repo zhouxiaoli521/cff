@@ -11,19 +11,23 @@
         class="com.amap.api.maps.SupportMapFragment" />
 
     <LinearLayout
+        android:id="@+id/widows"
         android:layout_width="240dp"
-        android:layout_height="160dp"
+        android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:background="#eeee0000"
+        android:visibility="gone"
+        android:background="@drawable/window_bg"
         android:orientation="vertical" >
 
         <Gallery
             android:id="@+id/city_image"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="160dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:background="@drawable/window_title_bg"
+            android:padding="10dp"
             android:layout_height="wrap_content" >
 
             <LinearLayout
@@ -36,14 +40,13 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center_horizontal" >
+                    android:gravity="center_horizontal|center_vertical" >
 
                     <TextView
-                        android:id="@+id/temp1"
+                        android:id="@+id/week1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
-                        android:background="#ee00aa00"
                         android:gravity="center"
                         android:text="日期" />
 
@@ -59,7 +62,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#ee00aa00"
                     android:gravity="center"
                     android:text="明日天气" />
             </LinearLayout>
@@ -74,14 +76,13 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:gravity="center_horizontal" >
+                  android:gravity="center_horizontal|center_vertical"  >
 
                     <TextView
-                        android:id="@+id/date2"
+                        android:id="@+id/week2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="5dp"
-                        android:background="#ee00aa00"
                         android:gravity="center"
                         android:text="日期" />
 
@@ -97,7 +98,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#ee00aa00"
                     android:gravity="center"
                     android:text="明日天气" />
             </LinearLayout>

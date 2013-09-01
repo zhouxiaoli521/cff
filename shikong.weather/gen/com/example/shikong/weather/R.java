@@ -12,24 +12,44 @@ public final class R {
     }
     public static final class drawable {
         public static final int d00=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int m1=0x7f020002;
-        public static final int m2=0x7f020003;
-        public static final int m3=0x7f020004;
-        public static final int m4=0x7f020005;
+        public static final int home=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int m1=0x7f020003;
+        public static final int m2=0x7f020004;
+        public static final int m3=0x7f020005;
+        public static final int m4=0x7f020006;
+        public static final int m5=0x7f020007;
+        public static final int m6=0x7f020008;
+        public static final int m7=0x7f020009;
+        public static final int m8=0x7f02000a;
+        public static final int w1=0x7f02000b;
+        public static final int w10=0x7f02000c;
+        public static final int w11=0x7f02000d;
+        public static final int w2=0x7f02000e;
+        public static final int w3=0x7f02000f;
+        public static final int w4=0x7f020010;
+        public static final int w5=0x7f020011;
+        public static final int w6=0x7f020012;
+        public static final int w7=0x7f020013;
+        public static final int w8=0x7f020014;
+        public static final int w9=0x7f020015;
+        public static final int window_bg=0x7f020016;
+        public static final int window_title_bg=0x7f020017;
     }
     public static final class id {
-        public static final int city_image=0x7f070001;
-        public static final int date2=0x7f070004;
+        public static final int city_image=0x7f070002;
         public static final int map=0x7f070000;
-        public static final int marker_iv=0x7f070008;
-        public static final int marker_text=0x7f070009;
-        public static final int marker_title=0x7f070007;
-        public static final int menu_settings=0x7f07000a;
-        public static final int temp1=0x7f070002;
-        public static final int temp2=0x7f070006;
-        public static final int weather1=0x7f070003;
-        public static final int weather2=0x7f070005;
+        public static final int marker_iv=0x7f07000a;
+        public static final int marker_text=0x7f07000b;
+        public static final int marker_title=0x7f070009;
+        public static final int menu_settings=0x7f07000c;
+        public static final int temp1=0x7f070005;
+        public static final int temp2=0x7f070008;
+        public static final int weather1=0x7f070004;
+        public static final int weather2=0x7f070007;
+        public static final int week1=0x7f070003;
+        public static final int week2=0x7f070006;
+        public static final int widows=0x7f070001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

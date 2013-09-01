@@ -4,14 +4,20 @@ import com.amap.api.maps.model.LatLng;
 
 public class Wdata {
 
-	public int lat;
-	public float lng;
+	public double lat;
+	public double lng;
 	public LatLng latLng;
 	public String city;
 	public String date;
-	public String week;
+	
+	public String week0;
+	public String week1;
+	public String week2;
+	
+	public String temp0;
 	public String temp1;
 	public String temp2;
+	public String weather0;
 	public String weather1;
 	public String weather2;
 
@@ -25,12 +31,18 @@ public class Wdata {
 	public Wdata getWdata(int i) {
 		city = "city" + i;
 		date = "2013年8月" + i + "日";
-		week = "星期" + i;
+		week0 = "星期" + i;
 		temp1 = "1" + i + "℃~2" + i + "℃";
 		temp2 = "2" + i + "℃~3" + i + "℃";
 		weather1 = "多云" + i;
 		weather2 = "晴" + i;
 		latLng=ll[i%ll.length];
 		return this;
+	}
+	
+	public void setLatlng(LatLng latLng){
+		this.latLng=latLng;
+		lat= latLng.latitude;
+		lng= latLng.longitude;
 	}
 }
